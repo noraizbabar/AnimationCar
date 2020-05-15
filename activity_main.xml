@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/road"
+        android:layout_width="120pt"
+        android:layout_height="175pt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        app:srcCompat="@drawable/road" />
+    <ImageView
+        android:id="@+id/car"
+        android:layout_width="25pt"
+        android:layout_height="50pt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="58pt"
+        android:layout_marginBottom="52pt"
+        app:srcCompat="@drawable/car" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/farword"
+        android:text="Farword"
+        android:layout_marginTop="40pt"
+        android:layout_marginLeft="55pt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backword"
+        android:text="Backword"
+        android:layout_marginTop="110pt"
+        android:layout_marginLeft="55pt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_btn"
+        android:text="Left"
+        android:layout_marginTop="75pt"
+        android:layout_marginLeft="20pt"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_btn"
+        android:text="Right"
+        android:layout_marginTop="75pt"
+        android:layout_marginLeft="90pt"/>
+
+
+</RelativeLayout>
